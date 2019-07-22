@@ -1,0 +1,14 @@
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\obj\Debug\FivePieceGameOnLine.csprojAssemblyReference.cache
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\obj\Debug\FivePieceGameOnLine.ChessBorderForm.resources
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\obj\Debug\FivePieceGameOnLine.GameHallForm.resources
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\obj\Debug\FivePieceGameOnLine.LoginForm.resources
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\obj\Debug\FivePieceGameOnLine.Properties.Resources.resources
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\obj\Debug\FivePieceGameOnLine.RegeditForm.resources
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\obj\Debug\FivePieceGameOnLine.csproj.GenerateResource.cache
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\obj\Debug\FivePieceGameOnLine.csproj.CoreCompileInputs.cache
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\bin\Debug\FivePieceGameOnLine.exe.config
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\bin\Debug\FivePieceGameOnLine.exe
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\bin\Debug\FivePieceGameOnLine.pdb
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\obj\Debug\FivePieceGameOnLine.exe
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\obj\Debug\FivePieceGameOnLine.pdb
+F:\visual studio pro2017\visualStudioprojects\NetWorkProgram0722_2\FivePieceGameOnLine\obj\Debug\FivePieceGameOnLine.RoomForm.resources
