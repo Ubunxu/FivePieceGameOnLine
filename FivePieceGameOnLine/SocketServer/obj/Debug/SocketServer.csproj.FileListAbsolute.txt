@@ -1,0 +1,13 @@
+F:\Project\CshapProject\Project1\SocketServer\bin\Debug\SocketServer.exe.config
+F:\Project\CshapProject\Project1\SocketServer\bin\Debug\SocketServer.exe
+F:\Project\CshapProject\Project1\SocketServer\bin\Debug\SocketServer.pdb
+F:\Project\CshapProject\Project1\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+F:\Project\CshapProject\Project1\SocketServer\obj\Debug\SocketServer.exe
+F:\Project\CshapProject\Project1\SocketServer\obj\Debug\SocketServer.pdb
+C:\Users\ASUS\Desktop\我的文件夹\实训老师文件\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\ASUS\Desktop\我的文件夹\实训老师文件\SocketServer\bin\Debug\SocketServer.exe
+C:\Users\ASUS\Desktop\我的文件夹\实训老师文件\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\ASUS\Desktop\我的文件夹\实训老师文件\SocketServer\obj\Debug\SocketServer.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\我的文件夹\实训老师文件\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\我的文件夹\实训老师文件\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\ASUS\Desktop\我的文件夹\实训老师文件\SocketServer\obj\Debug\SocketServer.pdb
