@@ -1,0 +1,156 @@
+服务器上已经对棋子是否五子连心进行了判断，以下是我之前在客户端进行判断时写的。
+
+//注意this.pieceLocation[row, col] = value;要放在显示黑白子的方法里面
+
+private int[,] pieceLocation = new int[15, 15];//每个点的状态  -1：黑子 1：白子， 
+
+  /// <summary>
+        /// 判断棋盘上棋子是否成五个
+        /// </summary>
+        private bool JudgeFivePiece(int x, int y, int _piece)//_piece：-1是黑子  1是白子
+        {
+            int count = 1;//棋子计数 
+            int posX = 0, posY = 0;//水平和竖直方向位置
+
+            //判断水平方向：
+            //左边
+            for (posX = x - 1; posX >= 0; --posX)
+            {
+                if (this.pieceLocation[posX, y] == _piece)
+                {
+                    ++count;
+                    if (count >= 5)
+                    {
+                        return true;
+                    }
+                }
+                else
+                {
+                    break;
+                }
+            }
+            //右边
+            for (posX = x + 1; posX < 15; ++posX)
+            {
+                if (this.pieceLocation[posX, y] == _piece)
+                {
+                    ++count;
+                    if (count >= 5)
+                    {
+                        return true;
+                    }
+                }
+                else
+                {
+                    count = 1;
+                    break;
+                }
+            }
+
+            //竖直方向：
+            //上边
+            for (posY = y - 1; posY >= 0; --posY)
+            {
+                if (this.pieceLocation[x, posY] == _piece)
+                {
+                    ++count;
+                    if (count >= 5)
+                    {
+                        return true;
+                    }
+                }
+                else
+                {
+                    break;
+                }
+            }
+            //下边
+            for (posY = y + 1; posY < 15; ++posY)
+            {
+                if (this.pieceLocation[x, posY] == _piece)
+                {
+                    ++count;
+                    if (count >= 5)
+                    {
+                        return true;
+                    }
+                }
+                else
+                {
+                    count = 1;
+                    break;
+                }
+            }
+
+            //反对角线方向
+            //左上边
+            for (posX = x - 1, posY = y - 1; posX >= 0 && posY >= 0; --posX, --posY)
+            {
+                if (this.pieceLocation[posX, posY] == _piece)
+                {
+                    ++count;
+                    if (count >= 5)
+                    {
+                        return true;
+                    }
+                }
+                else
+                {
+                    break;
+                }
+            }
+            //右下边
+            for (posX = x + 1, posY = y + 1; posX < 15 && posY < 15; ++posX, ++posY)
+            {
+                if (this.pieceLocation[posX, posY] == _piece)
+                {
+                    ++count;
+                    if (count >= 5)
+                    {
+                        return true;
+                    }
+                }
+                else
+                {
+                    count = 1;
+                    break;
+                }
+            }
+
+            //正对角线方向
+            //右上
+            for (posX = x + 1, posY = y - 1; posX < 15 && posY >= 0; ++posX, --posY)
+            {
+                if (this.pieceLocation[posX, posY] == _piece)
+                {
+                    ++count;
+                    if (count >= 5)
+                    {
+                        return true;
+                    }
+                }
+                else
+                {
+                    break;
+                }
+            }
+            //左下
+            for (posX = x - 1, posY = y + 1; posX >= 0 && posY < 15; --posX, ++posY)
+            {
+                if (this.pieceLocation[posX, posY] == _piece)
+                {
+                    ++count;
+                    if (count >= 5)
+                    {
+                        return true;
+                    }
+                }
+                else
+                {
+                    count = 1;
+                    break;
+                }
+            }
+
+            return false;
+        }
